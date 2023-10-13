@@ -1,0 +1,116 @@
+body {
+    margin:0;
+    padding: 0;
+    width: 100%;
+    font-size: 22px;
+    font-family: 'Inconsolata', monospace;
+}
+
+header {
+    text-align: center;
+}
+
+.nav ul{
+    display: flex;
+    justify-content: space-around;
+    text-decoration: underline;
+    list-style-type: none;
+    cursor: pointer;
+}
+
+.banner {
+    display: flex;
+    background-image: url("./img/banner-background.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: 0;
+    height: 500px;
+    padding-top: 35px;
+}
+
+.banner-about {
+    display: block;
+    position: absolute; 
+    width: 100%;
+    top: 30%;
+    bottom: 55%;
+    background-color: white;
+    align-content: center;
+}
+
+.mobile-portfolio {
+    display: block;
+    min-height: 550px;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.gallery-project {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+.gallery-project img {
+    width: 300px;
+    height: auto;
+    padding: 10px;
+}
+
+span {
+    padding: 5px;
+    min-width: 240px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.our-team {
+    text-align: center;
+}
+
+.our-team-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    padding: 10px;
+    background-image: url("./img/team-background.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+
+.main-team {
+    display: block;
+}
+
+.main-team img {
+    width: 200px;
+    height: auto;
+}
+
+.main-team h2, p {
+    color: white;
+}
+
+.main-team p {
+    margin: 10px 10px;
+}
+
+footer {
+    display: block;
+    text-align: center;
+}
+
+.copyright {
+    padding-top: 70px;
+}
